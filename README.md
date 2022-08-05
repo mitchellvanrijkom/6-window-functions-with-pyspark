@@ -1,14 +1,14 @@
 # Introduction
 
-This repository contains the source code for a blog post about window functions in PySpark. Go to [Blog Post](https://mitchellvanrijkom.com). In that post, I described how to use the 6 most window functions in PySpark.
+This repository contains the source code for a blog post about window functions in PySpark. Go to [Use these 6 Window Functions to power up your PySpark queries, a comprehensive guide](https://mitchellvanrijkom.com/use-these-6-window-functions-to-power-up-your-pyspark-queries-a-comprehensive-guide). In that post, I describe how to use the 6 most window functions in PySpark.
 
 # Window functions
 
-When we work with data in Spark, we commonly use the SQL module. With this module, we can easily create dataframes with the DataFrame APIs that use different optimizers to help in supporting a wide range of data sources and algorithms optimized for big data workloads.
+Most of the time we use the SQL module in Spark. We create DataFrames with the DataFrame APIs which contain different optimizers that help support the processing of data with a wide range of data sources and algorithms for Big Data workloads.
 
 In SQL, we have a particular type of operation called a Window Function. This operation calculates a function on a subset of rows based on the current row. For each row, a frame window is determined. On this frame, a calculation is made based on the rows in this frame. For every row, the calculation returns a value.
 
-Because Spark uses SQL we also have window functions at our disposal. When we combine the power of DataFrames with window functions, we can create some unique optimized calculations!
+Because Spark uses a SQL module, we also have Window Functions at our disposal. When we combine the power of DataFrames with Window Functions, we can create some unique optimized calculations!
 
 # Repository
 
